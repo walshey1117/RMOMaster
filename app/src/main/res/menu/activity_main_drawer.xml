@@ -5,33 +5,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_clockin"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/Clock_In" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_clockout"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="@string/Clock_Out" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_locations"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="@string/Locations" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Other">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_handbook"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/RMO_Hand_book" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_conditions"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/App_TC" />
         </menu>
     </item>
 
