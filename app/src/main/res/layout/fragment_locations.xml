@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_rmo_locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rmo_logo"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txt_locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locations_info" />
+
+    <TextView
+        android:id="@+id/txt_ennis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ennis" />
+
+    <Spinner
+        android:id="@+id/spinner_ennis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_ennis_array" />
+
+    <TextView
+        android:id="@+id/txt_limerick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/limerick" />
+
+    <Spinner
+        android:id="@+id/spinner_limerick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_ennis_array" />
+
+    <TextView
+        android:id="@+id/txt_shannon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shannon" />
+
+    <Spinner
+        android:id="@+id/spinner_shannon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_ennis_array" />
+</LinearLayout>

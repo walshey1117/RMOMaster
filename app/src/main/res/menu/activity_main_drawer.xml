@@ -29,7 +29,7 @@
     <item android:title="Other">
         <menu>
             <item
-                android:id="@+id/nav_handbook"
+                android:id="@+id/nav_logout"
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/Logout" />
             <item
